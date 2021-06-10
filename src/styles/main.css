@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif
+	font-family: 'Roboto', sans-serif;
 }
 body,
 html {
@@ -27,6 +27,72 @@ body {
 }
 .skip-link:focus {
 	top: 0;
+}
+.thumb{
+	width: 100%;
+	-o-object-fit: fill;
+		object-fit: fill;
+	max-height: 450px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+.btn_detail {
+	display: inline-block;
+	min-width: 44px;
+	min-height: 44px;
+	background-color: rgb(4, 48, 129);
+	line-height: 44px;
+	text-decoration: none;
+	padding: 0 2em;
+	color: #FFF;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+article h4 {
+	margin-top: 10px;
+}
+article h5 {
+	margin-top: 10px;
+}
+article h6 {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+article p {
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+#likeButtonContainer{
+	z-index: 99;
+}
+.like {
+	z-index: 99;
+	font-size: 18px;
+	position: fixed;
+	bottom: 16px;
+	right: 16px;
+	background-color: #db0000;
+	color: white;
+	border: 0;
+	border-radius: 50%;
+	width: 55px;
+	height: 55px;
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+}
+.btn_detail:hover {
+	background-color: rgb(137, 137, 245);
+	color: white;
 }
 .menumob {
 	background-color: #190088;
@@ -180,6 +246,11 @@ main {
 	width: 100%;
 	max-height: 200px
 }
+.list_item_address {
+	font-size: 40px;
+	color: #000000;
+	font-weight: 500
+}
 .list_item_rating {
 	font-size: 40px;
 	color: #000000;
@@ -222,7 +293,7 @@ a{
 	min-width: 44px !important;
 	min-height: 44px !important;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 680px) {
 	.menumob {
 		display: none
 	}
@@ -230,7 +301,7 @@ a{
 		display: none
 	}
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 680px) {
 	.nav {
 		display: none
 	}

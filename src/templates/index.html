@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informasi Restoran Terlengkap">
+    <meta name="theme-color" content="#19182c" />
     <title>Restaurant Apps</title>
+    <link rel="apple-touch-icon" href="/src/public/icon/icon.png">
+    <link rel="icon" href="favicons.png">
+    <link rel="manifest" href="manifest.json">
+    <script defer src="fontawesome-free/js/regular.js"></script>
     <script defer src="fontawesome-free/js/solid.js"></script>
     <script defer src="fontawesome-free/js/fontawesome.js"></script>
 </head>
@@ -13,14 +20,14 @@
     <header>
         <!-- Mobile Navbar -->
         <div class="menumob">
-            <div class="iconmenu" id="menu"><a href="#">&#9776;</a></div>
+            <div class="iconmenu" id="menu"><a href="#" id="nav-drawwer">&#9776;</a></div>
             <div class="logomob">Restaurant Apps</div>
             <div class="logomob">&nbsp;</div>
         </div>
         <nav id="drawer" class="navmob">
-            <ul class="navlistmob">
+            <ul class="navlistmob" id="nav-drawwer_mobile">
                 <li class="navitemsmob"><a href="">Home</a></li>
-                <li class="navitemsmob"><a href="#">Favorite</a></li>
+                <li class="navitemsmob"><a href="#/Favorite">Favorite</a></li>
                 <li class="navitemsmob"><a target="_blank" href="https://github.com/mochyusuf">About</a></li>
             </ul>
         </nav>
@@ -29,7 +36,7 @@
             <a class="logo" href="">Restaurant Apps</a>
             <ul class="navlist">
                 <li class="navitems"><a href="">Home</a></li>
-                <li class="navitems"><a href="#">Favorite</a></li>
+                <li class="navitemsmob"><a href="#/Favorite">Favorite</a></li>
                 <li class="navitems"><a target="_blank" href="https://github.com/mochyusuf">About</a></li>
             </ul>
         </nav>
@@ -43,11 +50,7 @@
     </div>
     <!-- Content -->
     <main id="maincontent">
-        <section class="content">
-            <div class="latest">
-                <h1>Restaurant</h1>
-                <div class="list" id="list"></div>
-            </div>
+        <section class="conten">
         </section>
     </main>
     <!-- Footer -->

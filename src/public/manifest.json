@@ -1,0 +1,16 @@
+{
+    "name": "Restaurant Apps",
+    "short_name": "RestApps",
+    "description": "Informasi Restoran Terlengkap",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#19182c",
+    "theme_color": "#29182c",
+    "icons": [
+      {
+        "src": "/icon/icon.png",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ]
+  }
