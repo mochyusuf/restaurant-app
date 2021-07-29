@@ -33,7 +33,6 @@ body {
 	-o-object-fit: fill;
 		object-fit: fill;
 	max-height: 450px;
-	border-radius: 20px;
 	margin-bottom: 10px;
 }
 .btn_detail {
@@ -189,7 +188,9 @@ article p {
 	width: 100%;
 	text-align: center;
 	background-position: center;
-	background-color: #FFFFFF !important
+	background-color: #FFFFFF !important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .heroinner {
 	margin: 0 auto;
@@ -227,7 +228,7 @@ main {
 	margin-bottom: 20px
 }
 .list {
-	margin: 32px auto auto;
+	margin: 32px;
 	text-align: left;
 	display: grid;
 	grid-row-gap: 16px
@@ -249,12 +250,13 @@ main {
 .list_item_address {
 	font-size: 40px;
 	color: #000000;
-	font-weight: 500
+	font-weight: 500;
+	margin-bottom: 20px;
 }
 .list_item_rating {
 	font-size: 40px;
 	color: #000000;
-	font-weight: 500
+	font-weight: 500;
 }
 .list_item_rating_value {
 	color: #ff0000;
@@ -281,6 +283,119 @@ main {
 	font-size: 12px;
 	line-height: 1.5em
 }
+.list_item_categories{
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+}
+.list_item_food{
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+}
+.list_item_drink{
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+}
+.list_item_review{
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+}
+.card-restaurant-item{
+	margin:20px;
+}
+.review-card {
+    border: 1px solid #ececec;
+    margin: 20px;
+    text-align: center;
+	color : #FFF;
+	background-color: #140361;
+}
+.review-card span {
+    font-size: 50px;
+}
+.review{
+	box-shadow: 0 4px 8px 0 #000;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+	margin:20px;
+	padding:20px;
+}
+.review>.input>input{  
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+.review>.input>textarea{  
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+.review>.input>label{
+	font-size: 20px;
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+.review>button{
+	background-color: #190088;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	width: 100%;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.review-name {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.review-date {
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+.review-comment {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.gallery {
+	margin-bottom: 50px;
+}
+  
+.image-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+  
+.image-gallery img {
+	width: 270px;
+	margin: 10px;
+}
+  
+.image-gallery img:hover {
+	filter: grayscale(60%);
+}
+  
 footer {
 	background-color: #190088;
 	color: white;

@@ -1,5 +1,15 @@
 import 'regenerator-runtime'; /* for async await transpile */
 import '../styles/main.css';
+import './components/navigation-bar';
+import './components/hero-image';
+import './components/food-gallery';
+import './components/footer-bar';
+import './components/skip-content';
+import './components/loading-indicator';
+import './components/error-message';
+import './components/favorite-message';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import swRegister from './utils/sw-register';
 import App from './views/app';
 

@@ -4,9 +4,7 @@
 const CONFIG = {
   KEY: 1524623,
   BASE_URL: `https://restaurant-api.dicoding.dev/`,
-  SMALL_IMAGE_URL: (id) => `${CONFIG.BASE_URL}images/small/${id}`,
-  MEDIUM_IMAGE_URL: (id) => `${CONFIG.BASE_URL}images/medium/${id}`,
-  LARGE_IMAGE_URL: (id) => `${CONFIG.BASE_URL}images/large/${id}`,
+  API_KEY: '12345',
   DEFAULT_LANGUAGE: 'en-us',
   CACHE_NAME: 'Restaurant Apps',
   DATABASE_NAME: 'RestaurantAppsdb',
