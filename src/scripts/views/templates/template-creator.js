@@ -4,7 +4,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
   <article class="card card-restaurant-item">  
     <div class="list_item">
       <h3 class="list_item_city">${restaurant.city}</h3>
-      <img class="thumb" src="${API_ENDPOINT.IMG_RESTAURANT}/${restaurant.pictureId}" alt="${restaurant.name}" title="${restaurant.name}">
+      <img class="thumb lazyload" src="${API_ENDPOINT.IMG_RESTAURANT}/${restaurant.pictureId}" alt="${restaurant.name}" title="${restaurant.name}">
       <div class="list_item_content">
         <div class="list_item_rating">
           <i class="fas fa-star"></i>
@@ -57,7 +57,7 @@ const createSkeletonRestaurantTemplate = (count) => {
     <article class="card card-restaurant-item">
         <div class="list_item">
           <h3 class="list_item_city">Lorem ipsum dolor sit.</h3>
-          <img class="list_item_thumb" src="./placeholder.png" alt="skeleton" title="skeleton" crossorigin="anonymous">
+          <img class="list_item_thumb lazyload" src="./placeholder.png" alt="skeleton" title="skeleton" crossorigin="anonymous">
           <div class="list_item_content">
             <div class="list_item_rating">
               <i class="fas fa-star"></i>
@@ -78,7 +78,7 @@ const createRestaurantItemTemplate = (restaurant) => `
   <article class="card card-restaurant-item">  
     <div class="list_item">
       <h3 class="list_item_city">${restaurant.city}</h3>
-      <img class="list_item_thumb" src="${API_ENDPOINT.IMG_RESTAURANT}/${restaurant.pictureId}" alt="${restaurant.name}" title="${restaurant.name}">
+      <img class="list_item_thumb lazyload" src="${API_ENDPOINT.IMG_RESTAURANT}/${restaurant.pictureId}" alt="${restaurant.name}" title="${restaurant.name}">
       <div class="list_item_content">
         <div class="list_item_rating">
           <i class="fas fa-star"></i>

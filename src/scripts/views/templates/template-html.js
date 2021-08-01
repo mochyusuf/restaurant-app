@@ -11,7 +11,7 @@ const restoTemplate = (resto) => {
     <article>  
       <div class="list_item">
         <h3 class="list_item_city">${resto.city}</h3>
-        <img class="list_item_thumb" src="${CONFIG.SMALL_IMAGE_URL(
+        <img class="list_item_thumb lazyload" src="${CONFIG.SMALL_IMAGE_URL(
           resto.pictureId
         )}" alt="${resto.name}" title="${resto.name}">
         <div class="list_item_content">
@@ -35,7 +35,7 @@ const RestoDetailTemplate = (resto) => {
   <article>  
     <div class="list_item">
       <h3 class="list_item_city">${resto.city}</h3>
-      <img class="thumb" src="${CONFIG.SMALL_IMAGE_URL(
+      <img class="thumb lazyload" src="${CONFIG.SMALL_IMAGE_URL(
         resto.pictureId
       )}" alt="${resto.name}" title="${resto.name}">
       <div class="list_item_content">
