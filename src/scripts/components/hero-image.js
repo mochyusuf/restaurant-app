@@ -6,12 +6,12 @@ class HeroImage extends HTMLElement {
   render() {
     this.innerHTML = `
       <!-- Jumbotron -->
-      <div class="hero lazyload" style="background-image: url('images/hero-image_1-small.jpg');">
-        <div class="heroinner">
-          <h1 class="herotitle">Restaurant Apps</h1>
-          <p class="herosubtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <div class="hero">
+          <div class="heroinner">
+            <h1 class="herotitle">Restaurant Apps</h1>
+            <p class="herosubtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
         </div>
-      </div>
     `;
   }
 }

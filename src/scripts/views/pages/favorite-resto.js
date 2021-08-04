@@ -2,7 +2,6 @@
 /* eslint-disable no-undef */
 
 import FavoriteRestaurantIdb from '../../data/database';
-import { restoTemplate } from '../templates/template-html';
 import { createRestaurantItemTemplate } from '../templates/template-creator';
 
 const favoriteResto = {

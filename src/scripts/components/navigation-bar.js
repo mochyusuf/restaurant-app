@@ -8,7 +8,7 @@ class NavigationBar extends HTMLElement {
       <header>
         <!-- Mobile Navbar -->
         <div class="menumob">
-          <div class="iconmenu" id="menu"><a href="#" id="nav-drawwer">&#9776;</a></div>
+          <div class="iconmenu" id="menu"><button id="nav-drawwer">&#9776;</button></div>
           <div class="logomob">Restaurant Apps</div>
           <div class="logomob">&nbsp;</div>
         </div>

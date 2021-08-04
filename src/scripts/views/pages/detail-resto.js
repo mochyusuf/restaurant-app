@@ -6,7 +6,6 @@
 /* eslint-disable comma-dangle */
 import UrlParser from '../../routes/url-parser';
 import DumyDicodingSource from '../../data/dumy.-dicoding';
-import { RestoDetailTemplate } from '../templates/template-html';
 import LikeButtonInitiator from '../../globals/like-btn-initiator';
 import RestaurantDbSource from '../../data/restaurantdb-source';
 import { createRestaurantDetailTemplate } from '../templates/template-creator';
